@@ -1,0 +1,174 @@
+.main .section .section-contact-us {
+    width: 100%;
+}
+.main .section .section-contact-us .contact-us-descr {
+    width: 100%;
+    max-width: 1180px;
+    height: 100%;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('../img/Group\ 28.png') no-repeat center top/700px 200px;
+}
+.main .section .section-contact-us .contact-us-descr .descr-engagement {
+    margin-top: 50px;
+    width: 100%;
+    max-width: 600px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    column-gap: 100px;
+    z-index: 3;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 5px black;
+    font-family: var(--font-bold);
+}
+.main .section .section-contact-us .contact-us-descr .descr-engagement h3 {
+    font-size: 36px;
+    color: var(--main-btn-color);
+    
+}
+.main .section .section-contact-us .contact-us-descr .descr-engagement p {
+    font-size: 16px;
+}
+.main .section .section-contact-us .contact-us-descr .descr-engagement .engagement-users,
+.main .section .section-contact-us .contact-us-descr .descr-engagement .engagement-countries,
+.main .section .section-contact-us .contact-us-descr .descr-engagement .engagement-experts {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.main .section .section-contact-us .contact-us-descr .descr-content {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .section .section-contact-us .contact-us-descr .descr-content .content-text {
+    width: 100%;
+    max-width: 500px;
+}
+.main .section .section-contact-us .contact-us-descr .descr-content .content-text h2 {
+    font-size: 60px;
+    line-height: 1.4;
+    font-family: var(--font-bold);
+}
+.main .section .section-contact-us .contact-us-descr .descr-content .content-text h2>span {
+    color: var(--header-btn-color);
+}
+.main .section .section-contact-us .contact-us-descr .descr-content .content-text p {
+    width: 100%;
+    max-width: 400px;    
+    font-size: 16px;
+    line-height: 1.4;
+}
+.main .section .section-contact-us .contact-us-descr .descr-content .content-text .main-btn {
+    background-color: var(--main-btn-color);
+}
+.main .section .section-contact-us .contact-us-descr .descr-content .descr-image {
+    cursor: pointer;
+}
+@media all and (max-width: 1180px) {
+    .main .section .section-contact-us .contact-us-descr .descr-content .content-text h2 {
+        font-size: 50px;
+        line-height: 1.4;
+        font-family: var(--font-bold);
+    }
+}
+
+@media all and (max-width: 979px) {
+    .main .section .section-contact-us .contact-us-descr .descr-content .content-text h2 {
+        font-size: 44px;
+        line-height: 1.4;
+        font-family: var(--font-bold);
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-content .descr-image img {
+        width: 380px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main .section .section-contact-us .contact-us-descr {
+        background: url('../img/Group\ 28.png') no-repeat center 45px/585px 175px;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-engagement {
+        margin-top: 100px;
+        max-width: 525px;
+        min-height: 85px;
+        column-gap: 50px;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        margin-top: 40px;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-content .content-text {
+        width: 100%;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-content .content-text h2 {
+        font-size: 36px;
+        line-height: 1.4;
+        font-family: var(--font-bold);
+    }
+}
+@media all and (max-width: 600px) {
+    .main .section .section-contact-us .contact-us-descr {
+        background: url('../img/Group\ 28.png') no-repeat center 55px/500px 150px;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-engagement {
+        max-width: 425px;
+        column-gap: 30px;
+    }
+}
+@media all and (max-width: 486px) {
+    .main .section .section-contact-us .contact-us-descr {
+        background: none;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-engagement {
+        margin-top: 50px;
+        max-width: 350px;
+        min-height: 60px;
+        column-gap: 30px;
+
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-engagement h3 {
+        font-size: 24px;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-engagement p {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 375px) {
+    .main .section .section-contact-us .contact-us-descr .descr-engagement {
+        margin-top: 50px;
+        max-width: 300px;
+        min-height: 50px;
+        column-gap: 15px;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-engagement .engagement-users,
+    .main .section .section-contact-us .contact-us-descr .descr-engagement .engagement-countries,
+    .main .section .section-contact-us .contact-us-descr .descr-engagement .engagement-experts {
+        row-gap: 0;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-engagement h3 {
+        font-size: 20px;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-engagement p {
+        font-size: 12px;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-content  {
+        row-gap: 40px;
+    }
+    .main .section .section-contact-us .contact-us-descr .descr-content .descr-image img {
+        width: 300px;
+    }
+    
+}

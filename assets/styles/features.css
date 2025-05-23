@@ -1,0 +1,85 @@
+.main .section .section-features {
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: url('../img/Group\ 22\ \(1\).png') no-repeat left center/contain;
+    height: 80vh;
+}
+
+.main .section .section-features .features-descr {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main .section .section-features .features-descr h2 {
+    font-size: 60px;
+    line-height: 1.4;
+}
+.main .section .section-features .features-descr h2>span {
+    color: var(--main-btn-color);
+}
+.main .section .section-features .features-descr p {
+    margin-top: 15px;
+    font-size: 18px;
+    color: var(--text-color-grey);
+    line-height: 1.4;
+}
+.main .section .section-features .features-descr .main-btn {
+    margin-top: 25px;
+    background-color: var(--main-btn-color);
+}
+
+@media all and (max-width: 979px) {
+    .main .section .section-features {
+        background: url('../img/Group\ 22\ \(1\).png') no-repeat left center/250px 400px;
+    }
+    .main .section .section-features .features-descr p {
+        text-shadow: 1px 1px 2px #fff;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .main .section .section-features {
+        justify-content: flex-start;
+        background-position: bottom right;
+    }
+    .main .section .section-features .features-descr {
+        max-width: 400px;
+    }
+    .main .section .section-features .features-descr h2 {
+        font-size: 44px;
+    }
+    .main .section .section-features .features-descr p {
+        font-size: 16px;
+    }
+}
+@media all and (max-width: 600px) {
+    .main .section .section-features {
+        background-size: 200px 350px;
+    }
+}
+@media all and (max-width: 486px) {
+    .main .section .section-features {
+        background-size: 175px 300px;
+    }
+    .main .section .section-features .features-descr {
+        max-width: 325px;
+    }
+    .main .section .section-features .features-descr p {
+        font-size: 14px;
+    }
+}
+@media all and (max-width: 375px) {
+    .main .section .section-features {
+        background: none;
+    }
+    .main .section .section-features .features-descr p {
+        font-size: 16px;
+    }
+}

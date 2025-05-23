@@ -87,8 +87,11 @@
         display: flex;
         flex-direction: column;
         list-style: none;
-        row-gap: 20px;
+        row-gap: 5px;
         text-align: center;
+        background-color: #fff;
+        z-index: 3;
+        border-radius: 15px;
     }
 }
 @media all and (max-width: 486px) {
@@ -97,7 +100,6 @@
         right: 160px;
     }
     .header-nav .nav-list.active {
-        row-gap: 10px;
         right: 105px;
     }
     .header-nav .header-btn {
