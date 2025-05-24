@@ -155,16 +155,18 @@
         height: 40px;
     }
     .main .section .section-support .support-app .apple {
+        margin-top: 5px;;
         width: 130px;
         height: 50px;
     }
 }
 @media all and (max-width: 375px) {
     .main .section .section-support .support-title h2 {
-        font-size: 30px;
+        font-size: 24px;
     }
     .main .section .section-support .support-title p {
         font-size: 12px;
+        margin-top: 10px;
     }
     .main .section .section-support .support-descr {
         display: flex;
@@ -181,5 +183,8 @@
     .main .section .section-support .support-descr .descr-card img {
         width: 25px;
         height: 25px;
+    }
+    .main .section .section-support .support-app {
+        margin-top: 15px;
     }
 }
